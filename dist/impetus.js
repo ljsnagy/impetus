@@ -249,7 +249,6 @@
          * @param  {Object} ev Normalized event
          */
         function onMove(ev) {
-            ev.preventDefault();
             var event = normalizeEvent(ev);
 
             if (pointerActive && event.id === pointerId) {
